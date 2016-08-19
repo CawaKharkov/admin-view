@@ -6,5 +6,6 @@ Based on [https://github.com/modularcode/modular-admin-html](https://github.com/
 ### Usage
 
 - composer require cawakharkov/admin-view
-- add ```\CawaKharkov\AdminView\AdminViewServiceProvider::class``` to your *app.php* providers
+- add ```\CawaKharkov\AdminView\AdminViewServiceProvider::class``` to your **app.php** providers
+- publish assets ``` artisan vendor:publish --tag=public ```
 - extends from view - ```admin-view::layout```

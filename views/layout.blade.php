@@ -124,7 +124,7 @@
             </footer>
         </aside>
         <div class="sidebar-overlay" id="sidebar-overlay"></div>
-        @yield('content')
+        @yield('content')  <!-- see example -->
         <footer class="footer">
             <div class="footer-block buttons">
             </div>
