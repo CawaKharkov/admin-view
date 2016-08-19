@@ -1,0 +1,22 @@
+{
+  "name": "cawakharkov/admin-view",
+  "description": "Laravel package implementing admin theme",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aleksandr Zamiatin",
+      "email": "cawa123@mail.ru"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.*",
+    "laravel/framework": "5.3.*",
+    "illuminate/support": "5.3.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "CawaKharkov\\AdminView\\": "src/AdminView"
+    }
+  },
+  "minimum-stability": "dev"
+}
