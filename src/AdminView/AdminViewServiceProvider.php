@@ -19,7 +19,7 @@ class AdminViewServiceProvider extends ServiceProvider
          * Files
          */
         $this->publishes([
-            __DIR__ . '/../../../public' => public_path('theme/admin')
+            __DIR__ . '/../../public' => public_path('theme/admin')
         ], 'public');
 
 
