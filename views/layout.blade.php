@@ -32,7 +32,7 @@
                 </form>
             </div>
             <div class="header-block header-block-buttons">
-                @yild('headerHead')
+                @yield('headerHead')
             </div>
             <div class="header-block header-block-nav">
                 <ul class="nav-profile">
@@ -113,16 +113,18 @@
                     <div class="brand">
                         <div class="logo"><span class="l l1"></span> <span class="l l2"></span> <span
                                     class="l l3"></span> <span class="l l4"></span> <span class="l l5"></span></div>
-                        @yild('name')
+                        @yield('name')
                     </div>
                 </div>
+
+                @yield('navigation') <!-- see example -->
 
             </div>
             <footer class="sidebar-footer">
             </footer>
         </aside>
         <div class="sidebar-overlay" id="sidebar-overlay"></div>
-        @yild('content')
+        @yield('content')
         <footer class="footer">
             <div class="footer-block buttons">
             </div>
