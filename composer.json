@@ -15,6 +15,13 @@
     "psr-4": {
       "CawaKharkov\\AdminView\\": "src/AdminView"
     }
-  }
+  },
+  "extra": {
+    "laravel": {
+        "providers": [
+            "CawaKharkov\\AdminView\\AdminViewServiceProvider"
+        ]
+    }
+}
 
 }
